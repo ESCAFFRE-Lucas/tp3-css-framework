@@ -1,0 +1,94 @@
+.bd-links .btn {
+    padding: 0.25rem 0.5rem;
+    font-weight: 600;
+    color: rgba(0,0,0,0.65);
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-nav .flex-row {
+    position: absolute;
+}
+
+.align-items-start {
+    display: grid;
+    grid-template-columns: .4fr 1fr .4fr;
+}
+
+.intro {
+    grid-area: intro;
+    grid-row-start: intro;
+    grid-column-start: intro;
+    grid-row-end: intro;
+    grid-column-end: intro;
+}
+
+.title {
+    font-size: calc(1.425rem + 2.1vw);
+}
+
+.navbar-expand-lg {
+    background-color: #7952b3 !important;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.btn-outline-primary {
+    color: #DBB48C !important;
+    border-color: #DBB48C !important;
+}
+
+.form-control {
+    position: relative;
+    display: inline-block;
+    direction: ltr;
+}
+
+.bd-search::after {
+    position: absolute;
+    top: 0.4rem;
+    right: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+    font-size: .75rem;
+    color: #6c757d;
+    content: "Ctrl + /";
+    border: 1px solid #dee2e6;
+    border-radius: 0.125rem;
+}
+
+.quick-start {
+    margin-top: 20px;
+}
+
+.css {
+    margin-top: 20px;
+}
+
+.link-css pre code {
+    font-size: inherit;
+    color: #212529;
+    word-wrap: normal;
+}
+
+.link-css code {
+    padding: 0;
+    margin-top: 0.65rem;
+    margin-bottom: 0.65rem;
+    background-color: transparent;
+    border: 0;
+}
+
+.link-css {
+    display: flex;
+    margin-top: 0;
+    align-self: flex-end;
+}
